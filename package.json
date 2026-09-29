@@ -1,0 +1,22 @@
+{
+  "name": "jee-prep-platform",
+  "version": "1.0.0",
+  "description": "End-to-End Mock-Test Web Platform for JEE Preparation (React.js, Node.js, MongoDB)",
+  "scripts": {
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "jee-prep",
+    "nta-cbt",
+    "mock-test",
+    "react",
+    "node",
+    "mongodb"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "ISC"
+}
